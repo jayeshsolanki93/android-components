@@ -23,8 +23,10 @@ android {
 
 dependencies {
     implementation Dependencies.kotlin_coroutines
+    implementation Dependencies.androidx_work_runtime
 
     implementation project(':concept-engine')
+    implementation project(':concept-push')
     implementation project(':feature-tabs')
     implementation project(':service-firefox-accounts')
     implementation project(':support-webextensions')
